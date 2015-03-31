@@ -2,7 +2,7 @@
 # STAMP v.1.2.
 ###########################################################
 
-STAMP is a tool for characerizing similarities between transcription factor binding motifs. 
+STAMP is a tool for characterizing similarities between transcription factor binding motifs. 
 
 You can also use the formatMotifs.pl script to convert the outputs from various motif-finders into the format used by STAMP. 
 
@@ -31,7 +31,7 @@ Citations:
 
 ###########################################################
 Contact details:
-        email:                  mahony@psu.edu
+
         Personal website:       http://mahonylab.org/
         STAMP website:          http://www.benoslab.pitt.edu/stamp/
         Download STAMP:         http://www.benoslab.pitt.edu/services.html#downloads or https://github.com/shaunmahony/stamp
