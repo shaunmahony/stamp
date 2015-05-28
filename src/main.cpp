@@ -93,7 +93,7 @@ int main (int argc, char *argv[])
 	}
 
 	//Welcome message
-	if(!silent && !htmlOutput){printf("\n\tSTAMP\n\tSimilarity, Tree-building, & Alignment of Motifs and Profiles\n\n\tShaun Mahony\n\tDepartment of Biochemistry & Molecular Biology\n\tPenn State University\n\tVersion 1.2 (March 2015)\n\n");}
+	if(!silent && !htmlOutput){printf("\n\tSTAMP\n\tSimilarity, Tree-building, & Alignment of Motifs and Profiles\n\n\tShaun Mahony\n\tDepartment of Computational Biology\n\tUniversity of Pittsburgh\n\tVersion 1.0 (Winter 2006)\n\n");}
 
 	if(argc ==1) //First and Foremost, the help option
 	{	DisplayHelp();
@@ -264,7 +264,7 @@ int main (int argc, char *argv[])
 		}
 	}
 	if(!alignChosen)
-	{	ALIGN = new SmithWatermanAffine(CC, gapOpen, gapExtend, overlapAlign, extendOverlap);
+	  {	ALIGN = new SmithWatermanAffine(CC, gapOpen, gapExtend, overlapAlign, extendOverlap, forwardAlignOnly);
 	}
 	if(!maChosen)
 		MA = new ProgressiveProfileAlignment(outFileName, htmlOutput);
