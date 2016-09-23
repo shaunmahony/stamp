@@ -1,3 +1,5 @@
+The most recent version of STAMP is located here: https://github.com/seqcode/stamp
+
 ###########################################################
 # STAMP v.1.2.
 ###########################################################
@@ -11,6 +13,7 @@ See INSTALL.txt for compilation and testing instructions.
 
 ###########################################################
 Version history:
+	v.1.3: Moved to https://github.com/seqcode/stamp
 	v.1.2: 2015-03-30	
 	      This version includes bug fixes and updated compilation instructons that Gert Hulselmans (KU Leuven) performed in 
 	      Oct 2013. We're very grateful to Gert for getting this code working again. This version also includes a new option 
